@@ -50,8 +50,10 @@ DataSet            | Kaggle
 - Trained YOLOv8 on this dataset using *Google Colab with CUDA GPU acceleration*.
 - Optimized for bounding box accuracy, object confidence score, and robustness.
 
+### Results of model testing
 ![Images of the model test result](/readmeImages/val_batch2_pred.jpg)
 
+### Accuracy Metric 
 ![Images of Accuracy metric](/readmeImages/Screenshot%202025-04-12%20193833.png)
 
 [Visualisation of the Neural Network of the model](https://lavender-michelle-67.tiiny.site/png/web_database_yolov8n-onnx)
