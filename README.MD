@@ -92,11 +92,11 @@ DataSet            | Kaggle
 
 If using different tech stacks, ensure the following are covered:
 
-- **Detection**: Any object detection model (e.g., OpenCV DNN, SSD, etc.)
-- **Embedding**: FaceNet / Dlib / DeepFace or custom embedding method
-- **Streaming**: Alternatives like WebRTC, RTMP for duplex connection
-- **Backend**: Node.js / Django alternatives with appropriate routing
-- **Database**: PostgreSQL / Firebase with appropriate schema mapping
+- **Detection**: YOLOv8, custom-trained on a Kaggle dataset of 12,800 images
+- **Embedding**: Facial embeddings (FaceNet / Dlib / DeepFace or custom embedding method)
+- **Streaming**: HTTP Live Streaming (HLS)
+- **Backend**: Flask with Flask dependencies +JWT
+- **Database**: MongoDB
 
 ---
 ## Setup Instructions
