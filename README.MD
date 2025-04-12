@@ -139,7 +139,7 @@ To deactivate the environment later:
 deactivate
 ```
 
-For Admin-Interface/
+### For Admin-Interface/
 # Start the Flask server
 /api
 ```bash
@@ -153,7 +153,7 @@ npm start
 # Access Admin Panel
 http://localhost:5000/admin
 
-For Client/
+### For Client/
 # Start the Flask server
 /backend
 ```bash
@@ -173,6 +173,7 @@ http://localhost:3000
 
 
 ## Folder Structure
+```bash
 YOCHAI/
 │
 ├── .venv/                # Python virtual environment
@@ -190,5 +191,6 @@ YOCHAI/
 ├── test/                 # Testing scripts and mock videos
 ├── main.py               # Entry script
 └── README.md             # Project documentation
+```
 
 
