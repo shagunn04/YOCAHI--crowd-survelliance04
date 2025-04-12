@@ -2,9 +2,9 @@
 
 ![Yochai System Flow]
 
-![Client-Side](https://jmp.sh/DKMan5rz)
+[Client-Side](https://jmp.sh/DKMan5rz)
 
-![Admin-Side](https://jmp.sh/xistxURm)
+[Admin-Side](https://jmp.sh/xistxURm)
 
 
 ## Overview
