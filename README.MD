@@ -186,7 +186,7 @@ YOCHAI/
 │   ├── backend/          # Flask video processing
 │   └── frontend/         # Client video uploader
 │
-├── database/             # MongoDB connection utilities
+├── database/             # kaggle dataset and training and validation images
 ├── kaggleapi/            # Dataset fetcher
 ├── test/                 # Testing scripts and mock videos
 ├── main.py               # Entry script
