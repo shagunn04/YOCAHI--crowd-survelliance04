@@ -1,10 +1,17 @@
-ultralytics==8.1.0  # YOLOv8
-torch              # PyTorch (needed for YOLO)
-opencv-python      # OpenCV for image processing
-scipy              # For DeepSORT
-tensorflow         # If using DeepSORT with TensorFlow
-flask              # For API backend
-
-numpy              # For numerical operations
-matplotlib         # For visualization
-requests           # If fetching remote data
+ultralytics==8.1.0     # YOLOv8
+torch                  # PyTorch (needed for YOLO)
+opencv-python          # OpenCV for image processing
+scipy                  # For DeepSORT
+tensorflow             # If using DeepSORT with TensorFlow
+flask                  # For API backend
+flask-cors             # CORS support for Flask
+flask-bcrypt           # Password hashing for secure login
+flask-jwt-extended     # JWT Authentication
+pymongo                # MongoDB driver
+face_recognition       # Face recognition library
+dlib                   # Backend for face_recognition
+cmake                  # Required for building dlib
+face_recognition_models # Pretrained models for face recognition
+numpy                  # For numerical operations
+matplotlib             # For visualization
+requests               # If fetching remote data
