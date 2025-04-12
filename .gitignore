@@ -1,0 +1,21 @@
+web/backend/database
+web/database
+
+
+
+.venv/
+__pycache__/
+
+# Ignore local development settings
+.vscode/
+
+# Ignore datasets, temp code, and testing directories
+database/
+test/
+kaggleapi/
+
+# Ignore specific docs or files
+Hackathon_ppt.docx
+
+# Ignore all .docx files (optional, if you want to ignore all Word docs)
+# *.docx
