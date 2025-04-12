@@ -1,6 +1,6 @@
-# Yochai: AI-Powered Crowd Monitoring & Facial Recognition System
+# YOCAHI: AI-Powered Crowd Monitoring & Facial Recognition System
 
-## Yochai System Design Flow
+## YOCAHI System Design Flow
 
 [Client-Side](https://jmp.sh/DKMan5rz)
 
@@ -9,7 +9,7 @@
 
 ## Overview
 
-*Yochai* is an AI-driven surveillance and crowd-monitoring system that leverages computer vision to detect and track individuals in real time. Designed to ensure safety, prevent stampedes, enhance security, and support strategic decision-making, the system uses live camera feeds or video uploads to accurately count people and verify identities through facial recognition.
+*YOCAHI* is an AI-driven surveillance and crowd-monitoring system that leverages computer vision to detect and track individuals in real time. Designed to ensure safety, prevent stampedes, enhance security, and support strategic decision-making, the system uses live camera feeds or video uploads to accurately count people and verify identities through facial recognition.
 
 ---
 
@@ -82,7 +82,7 @@ DataSet            | Kaggle
 
 ## Purpose & Impact
 
-> *Yochai* was built with the mission of leveraging AI for crowd safety. In scenarios such as religious gatherings, large-scale events, or campus environments, monitoring real-time footfall is critical. This system helps:
+> *YOCAHI* was built with the mission of leveraging AI for crowd safety. In scenarios such as religious gatherings, large-scale events, or campus environments, monitoring real-time footfall is critical. This system helps:
 - Prevent overcrowding and stampedes.
 - Improve emergency response.
 - Support planning and resource management.
@@ -105,8 +105,8 @@ If using different tech stacks, ensure the following are covered:
 
 ```bash
 # Clone the repo
-git clone https://github.com/your-username/yochai.git
-cd yochai
+git clone https://github.com/your-username/YOCAHI.git
+cd YOCAHI
 ```
 
 Before running the application, it is highly recommended to set up a Python virtual environment to avoid package conflicts:
@@ -176,7 +176,7 @@ http://localhost:3000
 
 ## Folder Structure
 ```bash
-YOCHAI/
+YOCAHI/
 │
 ├── .venv/                # Python virtual environment
 ├── .vscode/              # VS Code config
