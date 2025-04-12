@@ -99,55 +99,72 @@ If using different tech stacks, ensure the following are covered:
 - **Database**: PostgreSQL / Firebase with appropriate schema mapping
 
 ---
-
 ## Setup Instructions
 
-
+```bash
 # Clone the repo
 git clone https://github.com/your-username/yochai.git
 cd yochai
-
+```
 
 Before running the application, it is highly recommended to set up a Python virtual environment to avoid package conflicts:
+
 # Create a virtual environment
+```bash
 python -m venv .venv
+```
 
 # Activate it
 # On Windows:
+```bash
 .venv\Scripts\activate
+```
 # On Unix or MacOS:
+```bash
 source .venv/bin/activate
+```
 
 # Upgrade pip
+```bash
 pip install --upgrade pip
+```
 
 # Install all required packages
+```bash
 pip install -r requirements.txt
-
+```
 
 To deactivate the environment later:
+```bash
 deactivate
-
+```
 
 For Admin-Interface/
 # Start the Flask server
 /api
+```bash
 python index.py
+```
 /frontend
+```bash
 npx create-react-app frontend
 npm start
+```
 # Access Admin Panel
 http://localhost:5000/admin
-
-
 
 For Client/
 # Start the Flask server
 /backend
+```bash
 python server.py
+```
 /frontend
+```bash
 npx create-react-app frontend
 npm start
+```
+
 
 # Access Admin Panel
 http://localhost:5000/admin
