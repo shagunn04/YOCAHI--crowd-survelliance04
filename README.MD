@@ -1,6 +1,6 @@
 # Yochai: AI-Powered Crowd Monitoring & Facial Recognition System
 
-![Yochai System Flow]
+## Yochai System Design Flow
 
 [Client-Side](https://jmp.sh/DKMan5rz)
 
