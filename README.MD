@@ -144,12 +144,13 @@ To deactivate the environment later:
 deactivate
 ```
 
-### For Admin-Interface/  🖥️
-# Start the Flask server
+# For Admin-Interface/  🖥️
+#### Start the Flask server (backend)
 /api
 ```bash
 python index.py
 ```
+### Run the react dev server(frontend)
 /frontend
 ```bash
 npx create-react-app frontend
@@ -158,12 +159,13 @@ npm start
 # Access Admin Panel
 http://localhost:5000/admin
 
-### For Client/ 🎥
-# Start the Flask server
+# For Client/ 🎥
+### Start the Flask server (backend)
 /backend
 ```bash
 python server.py
 ```
+### Run the react dev server(frontend)
 /frontend
 ```bash
 npx create-react-app frontend
